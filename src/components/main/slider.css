@@ -1,0 +1,54 @@
+ion-button {
+    --ripple-color: linear-gradient(230deg, rgba(123,32,229,1) 20%, rgba(70,54,248,1) 100%);
+}
+
+.card {
+    position: relative;
+    width: 320px;
+    background-color: rgb(61,37,182);
+    background: linear-gradient(230deg, rgba(123,32,229,1) 20%, rgba(70,54,248,1) 100%);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: left;
+}
+
+.settings {
+    background: #560bb3;
+    width: 87%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+.settings-closed {
+    width: 0;
+    background: #670cd4;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+.right-menu {
+    background: #670cd4;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    transition: all 1s;
+}
